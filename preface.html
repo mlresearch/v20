@@ -1,0 +1,627 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  
+  "http://www.w3.org/TR/html4/loose.dtd">  
+<html > 
+<head>           <title></title> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
+<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
+<!-- uni-html4,html --> 
+<meta name="src" content="preface.tex"> 
+<meta name="date" content="2011-11-06 15:41:00"> 
+<link rel="stylesheet" type="text/css" href="jmlr.css"> 
+</head><body 
+>
+<!--l. 66--><p class="noindent" ><div id="content"> <h2>Preface </h2>This volume contains the papers accepted to the 3rd Asian Conference on Machine Learning
+(ACML 2011), following successful preceding conferences held in Nanjing, China and Tokyo,
+Japan in 2009 and 2010, respectively. The conference aims at getting leading machine learning
+researchers in both Asia and the rest of the world together to discuss their recent research work.
+ACML 2011 was held November 13 - 15 in Taoyuan, Taiwan. The conference followed
+immediately and was co-located with the 2011 Annual Conference on Technologies and
+Applications of Artiﬁcial Intelligence (TAAI 2011). Both conferences shared a joint tutorial
+day.
+<!--l. 70--><p class="indent" >   The papers in this volume were accepted to ACML following a selective review process. We
+had 102 submissions. Among them, 60 successfully followed our full-text submission and
+formatting requirement and received full review. We eventually accepted 23 of them for
+inclusion in the proceedings. Every paper was double-blind reviewed, initially by at least 4
+reviewers who were chosen from our program committee members according to their
+bidding results. To ensure the quality, each reviewer had a quota of no more than 4
+papers to review. Every paper was also assigned to a senior program committee member
+who oversaw the review process by moderating email discussions among reviewers and
+resolving their diﬀerences. Finally, the program committee co-chairs or additional reviewers
+read borderline papers and reviewers comments to make conﬁdent decisions for all
+papers.
+<!--l. 72--><p class="indent" >   All accepted papers received both an oral and poster presentation. Following the tradition of
+previous ACMLs, all oral presentations are plenary. Constraints imposed by the length of the
+conference and a policy of avoiding parallel sessions restrict the number of papers that can be
+accepted. The poster session allowed us to include 6 additional papers to present at the
+conference.
+<!--l. 74--><p class="indent" >   This year, the submissions came from 22 countries around the world. The submissions covered
+a wide range of topics, including supervised, semi-supervised and unsupervised learning, clustering
+and dimensional reduction, classiﬁcation, ranking, structural learning, learning in graphs and
+networks, multi-label classiﬁcation, reinforcement learning and online learning, computational
+learning theory, and applications.
+<!--l. 76--><p class="indent" >   In addition to submitted papers, we were excited to have three keynotes. Yann
+LeCun talked about Learning Feature Hierarchy. Peter A. Flach talked about Scale
+Matters: On the Many Uses of Calibration in Machine Learning and Oren Etzioni talked
+about Open Information Extraction at Web Scale. The conference was preceded by a
+day of tutorials. The tutorials included Partially Observable Markov Decision Process
+by Wee Sun Lee and Learning from Graph Data: Graph Kernels, Graph Mining, and
+Recent Developments by Koji Tsuda. We thank them for their great contributions to the
+program.
+<!--l. 78--><p class="indent" >   We gratefully acknowledge our ﬁnancial sponsors: the National Science Council, Taiwan, Air
+Force Oﬃce of Scientiﬁc Research, USA, Asian Oﬃce of Aerospace R&#x0026;D, USA, Institute of
+Information Science and Research Center for Information Technology Innovation, Academia
+Sinica, Taiwan, and National Taiwan University. The ACML Steering Committee Chair Hiroshi
+Motoda and Co-Chair Zhi-Hua Zhou oﬀered advices from their valuable experience
+and provided excellent guidance. Contributions from the members of the organizing
+committee, the members of the senior program committee and the program committee are
+                                                                                   
+                                                                                   
+essential to the success of this conference. Their names are acknowledged in the following
+pages.
+<!--l. 80--><p class="indent" >   Last but not least, we would like to thank all authors who submitted their work to this
+conference.
+<!--l. 82--><p class="indent" >   Our special thanks go to the Local Chair, Chia-Hui Chang, for handling the budget and
+organizing everything from conference rooms, to hotels, to meals, to pins for putting up the
+posters. Allen Meng-Lun Wu handled visa issues, registrations, hotel booking and the Web-site.
+Ho-Hsuan Chien helped with editing the conference brochures, bag design, accounting, and other
+logistics.We are grateful to National Central University, Taiwan, and Taiwanese Association for
+Artiﬁcial Intelligence, for providing the many resources that went into the local organization of
+ACML 2011.
+<!--l. 84--><p class="noindent" ><span 
+class="cmti-10x-x-109">November 2011</span>
+<!--l. 84--><p class="noindent" >The Editorial Team:
+<!--l. 84--><p class="noindent" >ICML 2011 Program Co-Chairs <br 
+class="newline" /><br 
+class="newline" />Chun-Nan Hsu<br 
+class="newline" />Institute of Information Science, Academia Sinica, Taiwan<br 
+class="newline" />Information Sciences Institute, University of Southern California, CA, USA<br 
+class="newline" /><span 
+class="cmtt-10x-x-109">chunnan@iis.sinica.edu.tw</span>
+<!--l. 90--><p class="noindent" >Wee Sun Lee<br 
+class="newline" />School of Computing, National University of Singapore, Singapore<br 
+class="newline" /><span 
+class="cmtt-10x-x-109">leews@comp.nus.edu.sg</span>
+<!--l. 94--><p class="noindent" >
+<!--l. 97--><p class="indent" >
+                                                                                   
+                                                                                   
+<!--l. 98--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Invited Talks</span><span 
+class="cmbx-10x-x-109"> </span><br 
+class="newline" />
+<!--l. 100--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Speaker: Prof. Oren Etzioni</span><br 
+class="newline" /><span 
+class="cmbx-10x-x-109">Title: Open Information Extraction at Web Scale.</span><br 
+class="newline" />
+<!--l. 103--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Abstract: </span>Information Extraction (IE) is the task of mapping natural-language sentences to
+machine-processable representations of the sentences&#x2019; content. IE is often formulated as a
+machine-learning problem where an extractor for a particular relation (e.g., seminar
+speaker) is learned from labeled training examples. My talk will describe Open IE—an
+approach to scaling IE to the Web where the set of potential relations is not known
+in advance making a standard machine learning approach impossible. I will describe
+various bootstrapping approaches that enables us to utilize machine learning at Web
+scale.<br 
+class="newline" />
+<!--l. 105--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Biography: </span>Oren Etzioni is the Washington Research Foundation Entrepreneurship Professor at
+the University of Washington&#x2019;s Computer Science Department. He received his bachelor&#x2019;s degree
+in Computer Science from Harvard University in June 1986 where he was the ﬁrst Harvard
+student to ”major” in Computer Science. Etzioni received his Ph.D. from Carnegie Mellon
+University in January 1991, and joined the University of Washington&#x2019;s faculty in February 1991,
+where he is now a Professor of Computer Science. Etzioni received a National Young Investigator
+Award in 1993, and was selected as a AAAI Fellow a decade later. In 2007, he received the Robert
+S. Engelmore Memorial Award. He is the founder and director of the University of Washington&#x2019;s
+Turing Center.
+<!--l. 107--><p class="indent" >   Etzioni is the author of over 100 technical papers in a wide range of conferences including
+AAAI, ACL, CIDR, COLING, EMNLP, FOCS, HLT, ICML, IJCAI, ISWC, IUI, KDD, KR,
+SIGIR, and WWW. He is a founder of three companies (see below) and a Venture Partner at the
+Madrona Venture Group. His work has been featured in the New York Times, Wall
+Street Journal, NPR, SCIENCE, The Economist, TIME Magazine, Business Week,
+Newsweek, Discover Magazine, Forbes Magazine, Wired, NBC Nightly News, and even
+Pravda.<br 
+class="newline" /><br 
+class="newline" />
+<!--l. 109--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Speaker: Prof. Yann LeCun</span><br 
+class="newline" /><span 
+class="cmbx-10x-x-109">Title: Learning Feature Hierarchies.</span><br 
+class="newline" />
+<!--l. 112--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Abstract: </span>Intelligent perceptual tasks such as vision and audition require the construction of
+good internal representations. Machine Learning has been very successful for producing classiﬁers,
+but the next big challenge for ML is to devise learning algorithms that can learn features and
+internal representations automatically. Theoretical and empirical evidence suggest that the
+perceptual world is best represented by a multi-stage hierarchy in which features in successive
+stages are increasingly global, invariant, and abstract. An important question is to devise ”deep
+learning” methods for multi-stage architecture than can automatically learn feature hierarchies
+from labeled and unlabeled data.
+<!--l. 114--><p class="indent" >   We will demonstrate the use of deep learning methods, based on unsupervised sparse coding,
+to train convolutional network (ConvNets). ConvNets are biologically-inspired architectures
+                                                                                   
+                                                                                   
+consisting of multiple stages of ﬁlter banks, interspersed with non-linear operations, and spatial
+pooling operations. A number of applications will be shown through videos and live demos,
+including a category-level object recognition system that can be trained on the ﬂy, a pedestrian
+detector, a system that recognizes human activities in videos, and a trainable vision system for
+oﬀ-road mobile robot navigation. Specialized hardware architecture that implement these
+algorithms will also be described.<br 
+class="newline" />
+<!--l. 116--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Biography: </span>Yann LeCun is Silver Professor of Computer Science and Neural Science at New
+York University. He is also a Fellow of the NEC Research Institute (now NEC Labs America) in
+Princeton, NJ. He received a Diplme d&#x2019;Ingnieur from the Ecole Superieure d&#x2019;Ingnieur en
+Electrotechnique et Electronique (ESIEE), Paris in 1983, a Diplme d&#x2019;Etudes Approfondies (DEA)
+from Universit Pierre et Marie Curie, Paris in 1984, and a PhD in Computer Science from the
+same university in 1987. His PhD thesis was entitled ”Modeles connexionnistes de l&#x2019;apprentissage”
+(connexionist learning models) and introduced an early version of the back-propagation algorithm
+for gradient-based machine learning.<br 
+class="newline" /><br 
+class="newline" />
+<!--l. 118--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Speaker: Prof. Peter A. Flash</span><br 
+class="newline" /><span 
+class="cmbx-10x-x-109">Title: Scale Matters: on the many uses of calibration in machine learning.</span><br 
+class="newline" />
+<!--l. 121--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Abstract: </span>Calibration is the process of adjusting measurements to a standard scale. In machine
+learning it is most commonly understood in relation to the class probability estimates of a
+probabilistic classiﬁer: we say that a classiﬁer is well-calibrated if among all instances receiving a
+probability estimate p for a particular class, the proportion of instances having the class
+in question is approximately p. The advantage of a well-calibrated classiﬁer is that
+near-optimal decision thresholds can be directly derived from the operating condition (class
+and cost distribution). In this talk I explore various methods for classiﬁer calibration,
+including the isotonic regression method that relates to ROC analysis. I will discuss how
+these methods can be applied to single features, resulting in a very general framework
+in which features carry class information and categorical features can be turned into
+real-valued ones and vice versa. I will also discuss an alternative notion of calibration
+whereby a classiﬁer&#x2019;s score quantiﬁes the proportion of positive predictions it makes
+at that threshold. I will introduce the ROL curve, a close companion of ROC curves
+that allow to quantify the loss at a particular predicted positive rate. Rate-calibrated
+classiﬁers have an expected loss that is linearly related to AUC, which vindicates AUC
+as a coherent measure of classiﬁcation performance (contrary to recent claims in the
+literature).<br 
+class="newline" />
+<!--l. 123--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Biography: </span>Peter Flach is professor of Artiﬁcial Intelligence at the University of Bristol. He has
+published widely on inductive logic programming, multi-relational data mining, and machine
+learning. He was PC co-chair of ILP&#x2019;99 and ECML&#x2019;01, is on the steering committee of the recent
+ECML/PKDD conferences, and is a regular PC member of all major machine learning and data
+mining conferences including ICML, ECML/PKDD, ILP, ICDM, SDM, and PAKDD. Prof Flach
+is associate editor of Machine Learning, and serves on the editorial boards of Journal of Machine
+Learning Research, Journal of Artiﬁcial Intelligence Research, and Artiﬁcial Intelligence
+                                                                                   
+                                                                                   
+Communications.
+<!--l. 125--><p class="indent" >
+                                                                                   
+                                                                                   
+<!--l. 126--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Tutorials</span><span 
+class="cmbx-10x-x-109"> </span><br 
+class="newline" />
+<!--l. 128--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Speaker Name: Prof. Wee Sun Lee</span><br 
+class="newline" /><span 
+class="cmbx-10x-x-109">Title: Partially Observable Markov Decision Process.</span><br 
+class="newline" />
+<!--l. 131--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Abstract: </span>Partially Observable Markov Decision Process (POMDP) provides a mathematically
+elegant formulation for adapting the actions of an agent based on past observations in order to
+achieve high expected rewards in the future. However, solving POMDPs is computationally
+intractable in the worst case, and until recently POMDPs were considered to be impractical for
+applications. In the last few years, tremendous progress has been made in solving POMDPs and
+they have been shown to be eﬀective in application domains such as dialog systems, assistive
+technologies for the elderly, and aircraft collision avoidance systems. In this tutorial, we will go
+through the basic properties of POMDPs, try to understand when they are likely to be eﬀectively
+solvable, and describe techniques for scaling to problems with very large state spaces and long
+search horizons.<br 
+class="newline" />
+<!--l. 133--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Biography: </span>Wee Sun Lee is an associate professor in the Department of Computer Science at the
+National University of Singapore. He obtained his PhD from the Australian National University in
+1996 and was a research fellow at the Australian Defence Force Academy from 1996 to 1998
+prior to joining the National University of Singapore. He is interested in machines that
+learn, perform inference, make decisions and plan. He works on obtaining theoretical
+understanding of when learning, inference and planning can be done eﬀectively, on
+developing eﬀective algorithms for these problems, and also on applying the algorithms to
+applications such as information extraction, natural language understanding, robotics and
+games.<br 
+class="newline" /><br 
+class="newline" />
+<!--l. 135--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Speaker: Prof. Koji Tsuda</span><br 
+class="newline" /><span 
+class="cmbx-10x-x-109">Title: Learning from Graph Data: Graph Kernels, Graph Mining and Recent</span>
+<span 
+class="cmbx-10x-x-109">Developments.</span><br 
+class="newline" />
+<!--l. 138--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Abstract: </span>Labeled Graphs are general and powerful data structures that can be used to represent
+diverse kinds of objects such as XMLs, chemical compounds, proteins, and RNAs. In these 10
+years, we saw signiﬁcant progress in statistical learning algorithms for graph data, such as
+supervised classiﬁcation, clustering and dimensionality reduction. Graph kernels and graph mining
+have been the main driving force of such innovation. In this tutorial, I start from basics of the two
+techniques and cover several important algorithms in learning from graphs. Successful biological
+applications are featured. If time allows, I also cover recent developments and show future
+directions.<br 
+class="newline" />
+<!--l. 141--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Biography: </span>Koji Tsuda is Senior Research Scientist at AIST Computational Biology Research
+Center. He is also aﬃliated with ERATO Minato Project, Japan Science and Technology Agency
+(JST). After completing his Dr.Eng. in Kyoto University in 1998, he joined former
+Electrotechnical Laboratory (ETL), Tsukuba, Japan, as Research Scientist. When ETL is
+reorganized as AIST in 2001, he joined newly established Computational Biology Research
+                                                                                   
+                                                                                   
+Center, Tokyo, Japan. In 2000-2001, he worked at GMD FIRST (current Fraunhofer FIRST) in
+Berlin, Germany, as Visiting Scientist. In 2003-2004 and 2006-2008, he worked at Max
+Planck Institute for Biological Cybernetics, Tuebingen, Germany, ﬁrst as Research
+Scientist and later as Project Leader. He has published more than 70 papers in refereed
+conferences and journals, and served as an area chair and a program committee member in
+leading machine learning conferences such as NIPS and ICML. IPSJ Nagao Award
+(2009).
+<!--l. 143--><p class="indent" >
+                                                                                   
+                                                                                   
+<!--l. 144--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Conference Oﬃcers</span><span 
+class="cmbx-10x-x-109"> </span><br 
+class="newline" />
+<!--l. 146--><p class="noindent" ><span 
+class="cmbx-10x-x-109">General Co-Chairs</span>
+     <ul class="itemize1">
+     <li class="itemize">Chih-Jen Lin (National Taiwan University, Taiwan)
+     </li>
+     <li class="itemize">Qiang Yang (Hong Kong University of Science and Technology, Hong Kong)</li></ul>
+<!--l. 152--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Program Co-Chairs</span>
+     <ul class="itemize1">
+     <li class="itemize">Chun-Nan Hsu (Academia Sinica &#x0026; University of Southern California)
+     </li>
+     <li class="itemize">Wee Sun Lee (National University of Singapore)</li></ul>
+<!--l. 158--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Local Arrangement Chair</span>
+     <ul class="itemize1">
+     <li class="itemize">Chia-Hui Chang (National Central University, Taiwan)</li></ul>
+<!--l. 163--><p class="noindent" ><span 
+class="cmbx-10x-x-109">ACML Steering Committee</span>
+     <ul class="itemize1">
+     <li class="itemize">Tom Detterich (Oregon State University, USA)
+     </li>
+     <li class="itemize">Tu Bao Ho (JAIST, Japan)
+     </li>
+     <li class="itemize">Hiroshi Motoda, Chair (Osaka University, Japan)
+     </li>
+     <li class="itemize">Bernhard Pfahringer (Waikato University, New Zealand)
+     </li>
+     <li class="itemize">Masashi Sugiyama (Tokyo Institute of Technology, Japan)
+     </li>
+     <li class="itemize">Takashi Washio (Osaka University, Japan)
+     </li>
+     <li class="itemize">Geoﬀ Webb (Monash University, Australia)
+     </li>
+     <li class="itemize">Qiang Yang (Hong Kong University of Science and Technology, Hong Kong)
+     </li>
+     <li class="itemize">Zhi-Hua Zhou, Co-Chair (Nanjin University, China)</li></ul>
+                                                                                   
+                                                                                   
+<!--l. 176--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Senior Program Committee</span>
+     <ul class="itemize1">
+     <li class="itemize">Wray Buntine (Australian ICT, Australia)
+     </li>
+     <li class="itemize">Edward Chang (Google Research China, China)
+     </li>
+     <li class="itemize">Chris Ding (University of Texas, USA)
+     </li>
+     <li class="itemize">Wei Fan (IBM T.J.Watson Research, USA)
+     </li>
+     <li class="itemize">Xiaofei He (Zhejiang University, China)
+     </li>
+     <li class="itemize">Steven Hoi (Nanyang Technological University, Singapore)
+     </li>
+     <li class="itemize">Aapo Hyvarinen (University of Helsinki, Finland)
+     </li>
+     <li class="itemize">Kenji Fukumizu (Institute of Statistical Mathematics, Japan)
+     </li>
+     <li class="itemize">Irwin King (Chinese University of Hong Kong, Hong Kong)
+     </li>
+     <li class="itemize">Pavel Laskov (University of Tubingen, Germany)
+     </li>
+     <li class="itemize">Ping Li (Cornell University, USA)
+     </li>
+     <li class="itemize">YoonKyung Lee (The Ohio State University, USA)
+     </li>
+     <li class="itemize">Yuh-Jye Lee (National Taiwan University of Science and Technology, Taiwan)
+     </li>
+     <li class="itemize">Klaus-Robert Mller (Technical University Berlin, Germany)
+     </li>
+     <li class="itemize">Bernhard Pfahringer (University of Waikato, New Zealand)
+     </li>
+     <li class="itemize">Fei Sha (University of Southern California, USA)
+     </li>
+     <li class="itemize">Shirish Shevade (Indian Institute of Science, India)
+                                                                                   
+                                                                                   
+     </li>
+     <li class="itemize">Ivor Tsang (Nanyang Technological University, Singapore)
+     </li>
+     <li class="itemize">S. V. N. Vishwanathan (Purdue University, USA)
+     </li>
+     <li class="itemize">Jieping Ye (Arizona State University, USA)
+     </li>
+     <li class="itemize">Kai Yu (NEC Laboratories America, USA)
+     </li>
+     <li class="itemize">Denny Zhou (Micorsoft Research, USA)
+     </li>
+     <li class="itemize">Xiaojin Jerry Zhu (University of Wisconsin-Madison, USA)
+     </li>
+     <li class="itemize">Scott Sanner (Australian National University, Australia)</li></ul>
+<!--l. 204--><p class="noindent" ><span 
+class="cmbx-10x-x-109">Program Committee</span>
+     <ul class="itemize1">
+     <li class="itemize">Akihiro Inokuchi (Osaka University)
+     </li>
+     <li class="itemize">Akisato Kimura (Nippon Telegraph and Telephone Corporation)
+     </li>
+     <li class="itemize">Alexandre Termier (University of Grenoble)
+     </li>
+     <li class="itemize">Alfredo Cuzzocrea (ICAR-CNR and University of Calabria)
+     </li>
+     <li class="itemize">Annalisa Appice (University of Bari)
+     </li>
+     <li class="itemize">Changshui Zhang (Tsinghua University)
+     </li>
+     <li class="itemize">Chih-chieh Cheng (University of California, San Diego)
+     </li>
+     <li class="itemize">Chi-Jen Lu (Academia Sinica)
+     </li>
+     <li class="itemize">Ching-Kang Ing (Academia Sinica)
+     </li>
+     <li class="itemize">Christian Bockermann (Technical University of Dortmund)
+                                                                                   
+                                                                                   
+     </li>
+     <li class="itemize">Chun-hung Li (Hong Kong Baptist University)
+     </li>
+     <li class="itemize">Dacheng Tao (University of Technology)
+     </li>
+     <li class="itemize">Daichi Mochihashi (The Institute of Statistical Mathematics)
+     </li>
+     <li class="itemize">Daoqiang Zhang (Nanjing University of Aeronautics and Astronautics)
+     </li>
+     <li class="itemize">David Hardoon (SAS)
+     </li>
+     <li class="itemize">Dell Zhang (Birkbeck, University of London)
+     </li>
+     <li class="itemize">Ding-Xuan Zhou (City University of Hong Kong)
+     </li>
+     <li class="itemize">Dou Shen (Microsoft adCenter Labs)
+     </li>
+     <li class="itemize">Dragan Gamberger (Rudjer Boskovic Institute)
+     </li>
+     <li class="itemize">Dunja Mladenic (Jozef Stefan Institute)
+     </li>
+     <li class="itemize">Eiji Uchibe (Okinawa Institute of Science and Technology)
+     </li>
+     <li class="itemize">Fazel Famili (National Research Council of Canada)
+     </li>
+     <li class="itemize">Fei Wang (IBM T. J. Watson Research Center)
+     </li>
+     <li class="itemize">Filip Zelezny (Czech Technical University in Prague)
+     </li>
+     <li class="itemize">Gang Li (Deakin University)
+     </li>
+     <li class="itemize">Gilles Bisson (Centre national de la recherche scientiﬁque)
+     </li>
+     <li class="itemize">Gui-Rong Xue (Shanghai Jiaotong University)
+                                                                                   
+                                                                                   
+     </li>
+     <li class="itemize">Guo-Zheng Li (Tongji University)
+     </li>
+     <li class="itemize">Hai-Leong Chieu (DSO National Laboratories)
+     </li>
+     <li class="itemize">Hang Li (Microsoft Research Asia, China)
+     </li>
+     <li class="itemize">Harry Zhang (University of New Brunswick)
+     </li>
+     <li class="itemize">Hideki Asoh (National Institute of Advanced Industrial Science and Technology)
+     </li>
+     <li class="itemize">Hiroshi Mamitsuka (Kyoto University)
+     </li>
+     <li class="itemize">Hirotaka Hachiya (Tokyo Institute of Technology)
+     </li>
+     <li class="itemize">Hsing-Kuo Pao (National Taiwan University of Science and Technology)
+     </li>
+     <li class="itemize">Hsuan-Tien Lin (National Taiwan Uniersity)
+     </li>
+     <li class="itemize">Ichiro Takeuchi (Nagoya Institute of Technology)
+     </li>
+     <li class="itemize">James Kwok (Hong Kong University of Science and Technology)
+     </li>
+     <li class="itemize">Jian-Tao Sun (Microsoft Research Asia)
+     </li>
+     <li class="itemize">Jianxin Wu (Nanyang Tech. University)
+     </li>
+     <li class="itemize">Jie (Jessie) Yin (CSIRO ICT Centre)
+     </li>
+     <li class="itemize">Jorg-Uwe Kietz (University of Zurich)
+     </li>
+     <li class="itemize">Jun Sakuma (Tsukuba University)
+     </li>
+     <li class="itemize">Jun Sese (Ochanomizu University)
+                                                                                   
+                                                                                   
+     </li>
+     <li class="itemize">Jun Wang (Syracuse University)
+     </li>
+     <li class="itemize">Jun Yan (Microsoft Research Asia)
+     </li>
+     <li class="itemize">Junfeng Pan (Google)
+     </li>
+     <li class="itemize">Junping Zhang (Fudan University)
+     </li>
+     <li class="itemize">Kai Zhang (Lawrence Berkeley National Lab)
+     </li>
+     <li class="itemize">Kee-Eung Kim (Korea Advanced Institute of Science and Technology)
+     </li>
+     <li class="itemize">Kohei Hatano (Kyushu University)
+     </li>
+     <li class="itemize">Koichi Hirata (Kyushu Institute of Technology)
+     </li>
+     <li class="itemize">Kristian Kersting (Fraunhofer IAIS and University of Bonn)
+     </li>
+     <li class="itemize">Lei Yu (Binghamton University)
+     </li>
+     <li class="itemize">Lei Wang (The Australian National University)
+     </li>
+     <li class="itemize">Li Cheng (Toyota Technological Institute at Chicago)
+     </li>
+     <li class="itemize">Makoto Haraguchi (Hokkaido University)
+     </li>
+     <li class="itemize">Makoto Yamada (Tokyo Institute of Technology)
+     </li>
+     <li class="itemize">Manabu Kimura (Tokyo Institute of Technology)
+     </li>
+     <li class="itemize">Marco Cuturi (Kyoto University)
+     </li>
+     <li class="itemize">Marta Arias (Universitat Politecnica de Catalunya)
+                                                                                   
+                                                                                   
+     </li>
+     <li class="itemize">Masashi Shimbo (Nara Institute of Science and Technology)
+     </li>
+     <li class="itemize">Masato Inoue (Waseda University)
+     </li>
+     <li class="itemize">Ming Li (Nanjing University)
+     </li>
+     <li class="itemize">Ming-Hsuan Yang (University of California at Merced)
+     </li>
+     <li class="itemize">Mingmin Chi (Fudan University)
+     </li>
+     <li class="itemize">Min-Ling Zhang (Southeast University)
+     </li>
+     <li class="itemize">Naonori Ueda (NTT Communication Science Laboratories)
+     </li>
+     <li class="itemize">Nazha Selmaoui (Ple Pluridisciplinaire de la Matire et de lEnvironnement)
+     </li>
+     <li class="itemize">Nicola Di Mauro (University of Bari Aldo Moro)
+     </li>
+     <li class="itemize">Nicole Kramer (Technische Universitt Mnchen)
+     </li>
+     <li class="itemize">Rudy Setiono (National University of Singapore)
+     </li>
+     <li class="itemize">Rui Kuang (University of Minnesota)
+     </li>
+     <li class="itemize">Ryota Tomioka (University of Tokyo)
+     </li>
+     <li class="itemize">Sanjay Jain (National University of Singapore)
+     </li>
+     <li class="itemize">Scott Sanner (Australian National University)
+     </li>
+     <li class="itemize">See-Kiong Ng (Institute for Infocomm Research)
+     </li>
+     <li class="itemize">Shijun Wang (U.S. National Institutes of Health)
+                                                                                   
+                                                                                   
+     </li>
+     <li class="itemize">Shin Ando (Gunma University)
+     </li>
+     <li class="itemize">Shinichi Nakajima (Nikon Corporation)
+     </li>
+     <li class="itemize">Shipeng Yu (Siemens)
+     </li>
+     <li class="itemize">Shohei Shimizu (Osaka University)
+     </li>
+     <li class="itemize">Shou-de Lin (National Taiwan University)
+     </li>
+     <li class="itemize">Shuicheng Yan (National University of Singapore)
+     </li>
+     <li class="itemize">Sinno Jialin Pan (Institute for Infocomm Research)
+     </li>
+     <li class="itemize">Sintiani Dewi Teddy (Institute for Infocomm Research)
+     </li>
+     <li class="itemize">Songcan Chen (Nanjing University of Aeronautics &#x0026; Astronautics)
+     </li>
+     <li class="itemize">Soo-Young Lee (Korea Advanced Institute of Science and Technology)
+     </li>
+     <li class="itemize">Sung-Bae Cho (Yonsei University)
+     </li>
+     <li class="itemize">Su-Yun Huang (Academia Sinica)
+     </li>
+     <li class="itemize">Taiji Suzuki (University of Tokyo)
+     </li>
+     <li class="itemize">Takashi Onoda (Central Research Institute of Electric Power Industry)
+     </li>
+     <li class="itemize">Takio Kurita (Hiroshima University)
+     </li>
+     <li class="itemize">Tao Li (Florida International University)
+     </li>
+     <li class="itemize">Tetsuji Kuboyama (Gakushuin University)
+                                                                                   
+                                                                                   
+     </li>
+     <li class="itemize">Tetsuro Morimura (IBM Research - Tokyo)
+     </li>
+     <li class="itemize">Tien-Ho Lin (Microsoft Lab)
+     </li>
+     <li class="itemize">Tie-Yan Liu (MSR Asia)
+     </li>
+     <li class="itemize">Tingfan Wu (University of California, San Diego)
+     </li>
+     <li class="itemize">Tomoharu Iwata (Nippon Telegraph and Telephone Corporation)
+     </li>
+     <li class="itemize">Tru Hoang Cao (Ho Chi Minh City University of Technolgoy)
+     </li>
+     <li class="itemize">Tsuyoshi Ide (IBM Research - Tokyo)
+     </li>
+     <li class="itemize">Tsuyoshi Kato (Ochanomizu University)
+     </li>
+     <li class="itemize">Tzu-Kuo Huang (Carnegie Mellon University)
+     </li>
+     <li class="itemize">Xiaoli Li (Infocomm)
+     </li>
+     <li class="itemize">Xilin Chen (Institute of Computing Technology, Chinese Academy of Sciences)
+     </li>
+     <li class="itemize">Xingquan Zhu (Florida Atlantic University)
+     </li>
+     <li class="itemize">Xue Li (The University of Queensland)
+     </li>
+     <li class="itemize">Xuelong Li (University of London)
+     </li>
+     <li class="itemize">Yamazaki Keisuke (Tokyo Institute of Technology)
+     </li>
+     <li class="itemize">Yanai Keiji (University of Electro-Communications)
+     </li>
+     <li class="itemize">Yiming Ying (Univerity of Exeter)
+                                                                                   
+                                                                                   
+     </li>
+     <li class="itemize">Yisong Yue (Carnegie Mellon University)
+     </li>
+     <li class="itemize">Yuan-Chin Ivan Chang (Academia Sinica)
+     </li>
+     <li class="itemize">Yuhong Guo (Temple University)
+     </li>
+     <li class="itemize">Yuji Matsumoto (Nara Institute of Science and Technology)
+     </li>
+     <li class="itemize">Yun Chi (NEC Laboratories America)
+     </li>
+     <li class="itemize">Yuta Tsuboi (IBM Research - Tokyo)
+     </li>
+     <li class="itemize">Zhongfei (Mark) Zhang (SUNY Binghampton)
+     </li>
+     <li class="itemize">Zhouchen Lin (Microsoft Research Asia)</li></ul>
+<!--l. 329--><p class="indent" >   <hr><center>Page last modified on Sun Nov 6 15:41:38 2011.</center> </div>
+<!--l. 332--><p class="indent" >   <div id="fixed"><br> <a align="right" href="http://www.jmlr.org" target=_top><img align="right" class="jmlr" src="http://jmlr.csail.mit.edu/jmlr.jpg" border="0"></a> <p><br><br> <p align="right"> <A href="http://www.jmlr.org/"> Home Page </A> <p align="right"> <A href="/papers"> Papers </A> <p align="right"> <A href="/author-info.html"> Submissions </A> <p align="right"> <A href="/news.html"> News </A> <p align="right"> <A href="/scope.html"> Scope </A> <p align="right"> <A href="/editorial-board.html"> Editorial Board </A> <p align="right"> <A href="/announcements.html"> Announcements </A> <p align="right"> <A href="/proceedings"> Proceedings </A> <p align="right"> <A href="/mloss">Open Source Software</A> <p align="right"> <A href="/search-jmlr.html"> Search </A> <p align="right"> <A href="/manudb"> Login </A></p> <br><br> <p align="right"> <A href="http://jmlr.csail.mit.edu/jmlr.xml"> <img src="http://jmlr.csail.mit.edu/RSS.gif" class="rss" alt="RSS Feed"> </A> </div> <a 
+ id="x1-1doc"></a>
+    
+</body></html> 
+
+                                                                                   
+
+
