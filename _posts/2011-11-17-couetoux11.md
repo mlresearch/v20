@@ -1,0 +1,32 @@
+---
+title: Continuous Rapid Action Value Estimates
+abstract: 'In the last decade, Monte-Carlo Tree Search (MCTS) has revolutionized the
+  domain of large-scale Markov Decision Process problems. MCTS most often uses the
+  Upper Confidence Tree algorithm to handle the exploration versus exploitation trade-off,
+  while a few heuristics are used to guide the exploration in large search spaces.
+  Among these heuristics is Rapid Action Value Estimate (RAVE). This paper is concerned
+  with extending the RAVE heuristics to continuous action and state spaces. The approach
+  is experimentally validated on two artificial benchmark problems: the treasure hunt
+  game, and a real-world energy management problem.'
+pdf: "./couetoux11/couetoux11.pdf"
+layout: inproceedings
+key: couetoux11
+month: 0
+firstpage: 19
+lastpage: 31
+origpdf: http://jmlr.org/proceedings/papers/v20/couetoux11/couetoux11.pdf
+sections: 
+authors:
+- given: A.
+  family: CouÃ«toux
+- given: M.
+  family: Milone
+- given: M.
+  family: Brendel
+- given: H.
+  family: Doghmen
+- given: 
+  family: M.S.
+- given: O.
+  family: Teytaud
+---
