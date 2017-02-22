@@ -1,0 +1,30 @@
+---
+title: Support Vector Machines Under Adversarial Label Noise
+abstract: In adversarial classification tasks like spam filtering and intrusion detection,
+  malicious adversaries may manipulate data to thwart the outcome of an automatic
+  analysis. Thus, besides achieving good classification performances, machine learning
+  algorithms have to be robust against adversarial data manipulation to successfully
+  operate in these tasks. While support vector machines (SVMs) have shown to be a
+  very successful approach in classification problems, their effectiveness in adversarial
+  classification tasks has not been extensively investigated yet. In this paper we
+  present a preliminary investigation of the robustness of SVMs against adversarial
+  data manipulation. In particular, we assume that the adversary has control over
+  some training data, and aims to subvert the SVM learning process. Within this assumption,
+  we show that this is indeed possible, and propose a strategy to improve the robustness
+  of SVMs to training data manipulation based on a simple kernel matrix correction.
+pdf: "./biggio11/biggio11.pdf"
+layout: inproceedings
+key: biggio11
+month: 0
+firstpage: 97
+lastpage: 112
+origpdf: http://jmlr.org/proceedings/papers/v20/biggio11/biggio11.pdf
+sections: 
+authors:
+- given: B.
+  family: Biggio
+- given: B.
+  family: Nelson
+- given: P.
+  family: Laskov
+---

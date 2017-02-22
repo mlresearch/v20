@@ -1,0 +1,34 @@
+---
+title: Mixed-Variate Restricted Boltzmann Machines
+abstract: 'Modern datasets are becoming heterogeneous. To this end, we present in
+  this paper Mixed-Variate Restricted Boltzmann Machines for simultaneously modelling
+  variables of multiple types and modalities, including binary and continuous responses,
+  categorical options, multicategorical choices, ordinal assessment and category-ranked
+  preferences. Dependency among variables is modeled using latent binary variables,
+  each of which can be interpreted as a particular hidden aspect of the data. The
+  proposed model, similar to the standard RBMs, allows fast evaluation of the posterior
+  for the latent variables. Hence, it is naturally suitable for many common tasks
+  including, but not limited to, (a) as a pre-processing step to convert complex input
+  data into a more convenient vectorial representation through the latent posteriors,
+  thereby offering a dimensionality reduction capacity, (b) as a classifier supporting
+  binary, multiclass, multilabel, and label-ranking outputs, or a regression tool
+  for continuous outputs and (c) as a data completion tool for multimodal and heterogeneous
+  data. We evaluate the proposed model on a large-scale dataset using the world opinion
+  survey results on three tasks: feature extraction and visualization, data completion
+  and prediction.'
+pdf: "./tran11/tran11.pdf"
+layout: inproceedings
+key: tran11
+month: 0
+firstpage: 213
+lastpage: 229
+origpdf: http://jmlr.org/proceedings/papers/v20/tran11/tran11.pdf
+sections: 
+authors:
+- given: T.
+  family: Tran
+- given: D.
+  family: Phung
+- given: S.
+  family: Venkatesh
+---
