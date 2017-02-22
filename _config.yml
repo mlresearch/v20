@@ -16,12 +16,12 @@ sections:
 - name: default
   title: Accepted Papers
 layout: proceedings
-key: HsuACML2011
+id: HsuACML2011
 month: 0
 abstract: 
 origpdf: 
 pdf: "./HsuACML2011/HsuACML2011.pdf"
-editors:
+editor:
 - given: Chun-Nan
   family: Hsu
 - given: Wee Sun
