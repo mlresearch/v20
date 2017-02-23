@@ -1,7 +1,7 @@
 # Site settings
 # Auto generated from v20.bib
 ---
-booktitle: Asian Conference on Machine Learning
+booktitle: Proceedings of the Asian Conference on Machine Learning
 publisher: PMLR
 volume: 20
 year: '2011'
@@ -25,10 +25,10 @@ editor:
   family: Hsu
 - given: Wee Sun
   family: Lee
-title: Asian Conference on Machine Learning
+title: Proceedings of the Asian Conference on Machine Learning
 email: ''
-description: Asian Conference on Machine Learning, South Garden Hotels and Resorts,
-  Taoyuan, Taiwain
+description: Proceedings of the Asian Conference on Machine Learning, South Garden
+  Hotels and Resorts, Taoyuan, Taiwain
 url: http://proceedings.mlr.press
 baseurl: "/v20"
 twitter_username: mlresearch
