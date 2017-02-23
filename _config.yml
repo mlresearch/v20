@@ -3,7 +3,6 @@
 ---
 booktitle: Asian Conference on Machine Learning
 publisher: PMLR
-address: South Garden Hotels and Resorts, Taoyuan, Taiwain
 volume: 20
 year: '2011'
 start: 2011-11-14
@@ -18,16 +17,15 @@ sections:
 layout: proceedings
 id: HsuACML2011
 month: 0
-abstract: 
+abstract: ''
 origpdf: 
-pdf: "./HsuACML2011/HsuACML2011.pdf"
+pdf: http://proceedings.pmlr.press/HsuACML2011/HsuACML2011.pdf
 editor:
 - given: Chun-Nan
   family: Hsu
 - given: Wee Sun
   family: Lee
 title: Asian Conference on Machine Learning
-conference: Asian Conference on Machine Learning
 email: ''
 description: Asian Conference on Machine Learning, South Garden Hotels and Resorts,
   Taoyuan, Taiwain
@@ -37,8 +35,16 @@ twitter_username: mlresearch
 github_username: mlresearch
 markdown: kramdown
 permalink: "/:title.html"
-gitub:
+github:
   edit: true
+  repository: v20
+conference:
+  name: 
+  url: 
+  location: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  dates:
+  - 2011-11-14
+  - 2011-11-15
 analytics:
   google:
     tracking_id: UA-92432422-1
