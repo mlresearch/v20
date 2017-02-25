@@ -22,10 +22,19 @@ editor:
   family: Hsu
 - given: Wee Sun
   family: Lee
-title: Proceedings of the Asian Conference on Machine Learning
-email: ''
-description: Proceedings of the Asian Conference on Machine Learning, South Garden
-  Hotels and Resorts, Taoyuan, Taiwain
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the Asian Conference on Machine Learning
+    Held in South Garden Hotels and Resorts, Taoyuan, Taiwain on 14-15 November 2011
+
+  Published as Volume 20 by the Proceedings of Machine Learning Research on 17 November 2011.
+
+  Volume Edited by:
+    Chun-Nan Hsu
+    Wee Sun Lee
+
+  Series Editors:
+    Neil D. Lawrence
 url: http://proceedings.mlr.press
 baseurl: "/v20"
 twitter_username: mlresearch
@@ -35,6 +44,7 @@ permalink: "/:title.html"
 github:
   edit: true
   repository: v20
+email: ''
 conference:
   name: Asian Conference on Machine Learning
   url: 
