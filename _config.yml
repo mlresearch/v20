@@ -17,12 +17,13 @@ series: Proceedings of Machine Learning Research
 id: HsuACML2011
 month: 0
 abstract: ''
+tex_title: 
+title: Proceedings of Machine Learning Research
 editor:
 - given: Chun-Nan
   family: Hsu
 - given: Wee Sun
   family: Lee
-title: Proceedings of Machine Learning Research
 description: |
   Proceedings of the Asian Conference on Machine Learning
     Held in South Garden Hotels and Resorts, Taoyuan, Taiwain on 14-15 November 2011
