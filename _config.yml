@@ -1,5 +1,5 @@
 ---
-booktitle: Proceedings of the Asian Conference on Machine Learning
+booktitle: Proceedings of the Third Asian Conference on Machine Learning
 publisher: PMLR
 volume: 20
 year: '2011'
@@ -24,7 +24,7 @@ editor:
   family: Lee
 title: Proceedings of Machine Learning Research
 description: |
-  Proceedings of the Asian Conference on Machine Learning
+  Proceedings of the Third Asian Conference on Machine Learning
     Held in South Garden Hotels and Resorts, Taoyuan, Taiwain on 14-15 November 2011
 
   Published as Volume 20 by the Proceedings of Machine Learning Research on 17 November 2011.
@@ -60,6 +60,7 @@ conference:
   dates:
   - 2011-11-14
   - 2011-11-15
+  number: 3
 analytics:
   google:
     tracking_id: UA-92432422-1
